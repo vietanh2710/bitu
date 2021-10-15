@@ -21,6 +21,7 @@
       font-size: 44px;
       line-height: 56px;
       margin-bottom: 24px;
+      font-family: $ff-medium;
 
       @media (max-width: 600px) {
         font-size: 24px;
@@ -36,6 +37,7 @@
       font-size: 22px;
       line-height: 32px;
       margin-bottom: 64px;
+      font-family: $ff-bock;
 
       @media (max-width: 600px) {
         font-size: 16px;
@@ -86,6 +88,7 @@
           line-height: 30px;
           color: $gray-900;
           padding-bottom: 12px;
+          font-family: $ff-medium;
 
           @media (max-width: 600px) {
             font-size: 20px;
@@ -99,6 +102,7 @@
           display: flex;
           align-items: center;
           padding-bottom: 12px;
+          font-family: $ff-bock;
 
           @media (max-width: 600px) {
             padding-bottom: 10px;

@@ -28,28 +28,23 @@ li {
 }
 
 @font-face {
-  font-family: novecenUltraBold;
-  src: url("/dist/assets/fonts/iCielNovecentosans-UltraBold.otf");
+  font-family: circularBold;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Bold.ttf");
 }
 
 @font-face {
-  font-family: novecenRegular;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Normal.otf");
+  font-family: circularMedium;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Medium.ttf");
 }
 
 @font-face {
-  font-family: novecenMedium;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Medium.otf");
+  font-family: circularMediumItalic;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-MediumItalic.ttf");
 }
 
 @font-face {
-  font-family: novecenLigth;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Light.otf");
-}
-
-@font-face {
-  font-family: novecenExtraLigth;
-  src: url("/dist/assets/fonts/iCielNovecentosans-ExtraLight.otf");
+  font-family: circularBook;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Book.ttf");
 }
 
 .header {
@@ -102,7 +97,7 @@ li {
 .header .nav-menu .nav-item .nav-link {
   color: #fff;
   font-size: 17px;
-  font-weight: 500;
+  font-family: circularMedium;
 }
 
 @media (max-width: 768px) {
@@ -141,6 +136,7 @@ li {
       -ms-flex: 1;
           flex: 1;
   padding: 7px 6px;
+  font-family: circularMedium;
 }
 
 .header .nav-menu .nav-item.language > div img {
@@ -300,10 +296,10 @@ li {
 
 .banner-left .content-title {
   font-size: 64px;
-  font-weight: bold;
   color: #fff;
   margin-bottom: 32px;
   line-height: 81px;
+  font-family: circularBold;
 }
 
 @media (max-width: 600px) {
@@ -350,6 +346,7 @@ li {
 
 .banner-left .content-desc > div .text {
   color: #fff;
+  font-family: circularBook;
   font-size: 22px;
 }
 
@@ -507,6 +504,7 @@ li {
   font-size: 22px;
   color: #1a202c;
   line-height: 32px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -584,6 +582,7 @@ li {
   line-height: 56px;
   margin-bottom: 24px;
   max-width: 93%;
+  font-family: circularMedium;
 }
 
 @media (max-width: 600px) {
@@ -601,6 +600,7 @@ li {
   font-size: 22px;
   line-height: 32px;
   max-width: 520px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -668,6 +668,7 @@ li {
   font-size: 26px;
   line-height: 32px;
   margin-bottom: 16px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -680,8 +681,8 @@ li {
 
 .description .quote-subtext {
   font-size: 32px;
-  font-style: italic;
   line-height: 32px;
+  font-family: circularMediumItalic;
 }
 
 @media (max-width: 600px) {
@@ -718,6 +719,7 @@ li {
   font-size: 44px;
   line-height: 56px;
   margin-bottom: 24px;
+  font-family: circularMedium;
 }
 
 @media (max-width: 600px) {
@@ -735,6 +737,7 @@ li {
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 64px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -797,6 +800,7 @@ li {
   line-height: 30px;
   color: #1a202c;
   padding-bottom: 12px;
+  font-family: circularMedium;
 }
 
 @media (max-width: 600px) {
@@ -816,6 +820,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 12px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -1022,6 +1027,7 @@ li {
   line-height: 71px;
   color: #fff;
   padding-bottom: 16px;
+  font-family: circularBold;
 }
 
 @media (max-width: 600px) {
@@ -1049,7 +1055,12 @@ li {
   font-size: 32px;
   line-height: 40px;
   text-align: center;
-  padding: 9px 30px 8px 30px;
+  font-family: circularBook;
+  padding: 8px 15px;
+}
+
+.course-detail__wrapper .subtext p > span {
+  font-family: circularMedium;
 }
 
 @media (max-width: 600px) {
@@ -1087,6 +1098,7 @@ li {
   line-height: 71px;
   color: #2d3748;
   text-align: center;
+  font-family: circularBold;
 }
 
 @media (max-width: 600px) {
@@ -1120,6 +1132,7 @@ li {
 
 .experience .container .step-wrapper > div {
   position: relative;
+  height: 90%;
 }
 
 @media (max-width: 600px) {
@@ -1145,6 +1158,7 @@ li {
   height: 72px;
   position: relative;
   top: -75px;
+  font-family: circularBook;
 }
 
 @media (max-width: 600px) {
@@ -1194,6 +1208,7 @@ li {
   margin: 0 auto;
   text-align: center;
   max-width: 69%;
+  font-family: circularBook;
 }
 
 .feedback {
@@ -1353,12 +1368,14 @@ li {
   line-height: 28px;
   margin-bottom: 12px;
   color: #1a202c;
+  font-family: circularBold;
 }
 
 .about .content-left > div p:last-child {
   font-size: 16px;
   line-height: 20px;
   color: #718096;
+  font-family: circularBook;
 }
 
 .about .content-left img {
@@ -1455,6 +1472,7 @@ li {
 
 .trial .container {
   text-align: center;
+  padding-left: 65px;
 }
 
 .trial .container .title {
@@ -1466,6 +1484,7 @@ li {
     font-size: 32px;
     line-height: 40px;
     text-align: right;
+    padding-left: 0;
   }
 }
 
@@ -1577,6 +1596,7 @@ li {
   font-size: 16px;
   line-height: 20px;
   color: #1a202c;
+  font-family: circularBook;
 }
 
 .footer .items > div:not(:last-child) {
@@ -1633,6 +1653,7 @@ li {
   color: #1a202c;
   padding-top: 10px;
   margin-right: 16px;
+  font-family: circularBook;
 }
 
 @media (max-width: 768px) {
@@ -1696,6 +1717,7 @@ li {
   font-size: 56px;
   line-height: 71px;
   color: #2d3748;
+  font-family: circularBold;
 }
 
 @media (max-width: 600px) {

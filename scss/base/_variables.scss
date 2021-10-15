@@ -1,26 +1,21 @@
 @font-face {
-  font-family: novecenUltraBold;
-  src: url("/dist/assets/fonts/iCielNovecentosans-UltraBold.otf");
+  font-family: circularBold;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Bold.ttf");
 }
 
 @font-face {
-  font-family: novecenRegular;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Normal.otf");
+  font-family: circularMedium;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Medium.ttf");
 }
 
 @font-face {
-  font-family: novecenMedium;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Medium.otf");
+  font-family: circularMediumItalic;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-MediumItalic.ttf");
 }
 
 @font-face {
-  font-family: novecenLigth;
-  src: url("/dist/assets/fonts/iCielNovecentosans-Light.otf");
-}
-
-@font-face {
-  font-family: novecenExtraLigth;
-  src: url("/dist/assets/fonts/iCielNovecentosans-ExtraLight.otf");
+  font-family: circularBook;
+  src: url("/fonts/circular/AnyConv.com__CircularStd-Book.ttf");
 }
 
 // Colors
@@ -40,8 +35,7 @@ $secondary-bg-color: #ff6d03;
 $border-bottom-color: #edf2f7;
 
 // Fonts
-$ff-ultraBold: novecenUltraBold;
-$ff-regular: novecenRegular;
-$ff-medium: novecenMedium;
-$ff-ligth: novecenLigth;
-$ff-extraLigth: novecenExtraLigth;
+$ff-bold: circularBold;
+$ff-medium: circularMedium;
+$ff-mediumItalic: circularMediumItalic;
+$ff-bock: circularBook;

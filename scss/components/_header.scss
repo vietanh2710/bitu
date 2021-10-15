@@ -35,7 +35,7 @@
       .nav-link {
         color: $primary-text-color;
         font-size: 17px;
-        font-weight: 500;
+        font-family: $ff-medium;
 
         @media (max-width: 768px) {
           color: $secondary-text-color;
@@ -63,6 +63,7 @@
           align-items: center;
           flex: 1;
           padding: 7px 6px;
+          font-family: $ff-medium;
 
           img {
             padding-right: 10px;
