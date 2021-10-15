@@ -56,6 +56,10 @@
         border-radius: 12px;
         margin-right: 32px;
 
+        @media (max-width: 600px) {
+          margin-right: 8px;
+        }
+
         > img {
           display: block;
           width: 100%;
@@ -124,6 +128,7 @@
             font-size: 13px;
             line-height: 16px;
             padding-bottom: 10px;
+            height: 50px;
           }
         }
 

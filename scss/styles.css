@@ -740,6 +740,12 @@ li {
   margin-right: 32px;
 }
 
+@media (max-width: 600px) {
+  .moderator-member .container .profile-moderator__container {
+    margin-right: 8px;
+  }
+}
+
 .moderator-member .container .profile-moderator__container > img {
   display: block;
   width: 100%;
@@ -840,6 +846,7 @@ li {
     font-size: 13px;
     line-height: 16px;
     padding-bottom: 10px;
+    height: 50px;
   }
 }
 
@@ -1115,7 +1122,6 @@ li {
   .experience .container .step-wrapper .step {
     max-width: 52px;
     height: 52px;
-    top: -55px;
   }
 }
 
@@ -1199,12 +1205,6 @@ li {
 
 .feedback .carousel-feedback > div {
   position: relative;
-}
-
-@media (max-width: 600px) {
-  .feedback .carousel-feedback > div img {
-    max-width: 209px;
-  }
 }
 
 .feedback .title {
@@ -1476,12 +1476,6 @@ li {
   padding-left: 10px;
 }
 
-@media (max-width: 1024px) {
-  .footer .items {
-    padding-left: 40px;
-  }
-}
-
 @media (max-width: 768px) {
   .footer .items {
     padding-left: 80px;
@@ -1571,7 +1565,6 @@ li {
 @media (max-width: 768px) {
   .footer .link p {
     margin-right: 0;
-    margin-left: 12px;
   }
 }
 
