@@ -485,7 +485,7 @@ li {
 .introduce-right {
   max-width: 518px;
   width: 100%;
-  padding-top: 95px;
+  padding-top: 80px;
   padding-left: 25px;
 }
 
@@ -758,7 +758,7 @@ li {
   -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
-  margin-right: 32px;
+  margin-right: 24px;
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
