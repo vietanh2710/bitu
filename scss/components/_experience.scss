@@ -1,0 +1,116 @@
+.experience {
+  overflow-x: hidden;
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 141px;
+    padding-bottom: 182px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media (max-width: 600px) {
+      margin-top: 24px;
+      padding-bottom: 40px;
+    }
+  }
+
+  .text {
+    margin-bottom: 120px;
+    font-size: 56px;
+    line-height: 71px;
+    color: $gray-800;
+    text-align: center;
+
+    @media (max-width: 600px) {
+      font-size: 32px;
+      line-height: 40px;
+      width: 53%;
+      margin: 0 auto 24px auto;
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 768px) {
+      display: block;
+      grid-template-columns: unset;
+    }
+
+    .step-wrapper {
+      margin: 0 auto;
+      position: relative;
+
+      > div {
+        position: relative;
+
+        img {
+          @media (max-width: 600px) {
+            max-height: 554px;
+            width: 100%;
+          }
+        }
+      }
+
+      .step {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        background: $secondary-bg-color;
+        box-shadow: 0px 8px 8px rgba(255, 109, 3, 0.2);
+        border-radius: 128.571px;
+        max-width: 72px;
+        height: 72px;
+        position: relative;
+        top: -75px;
+
+        @media (max-width: 600px) {
+          max-width: 52px;
+          height: 52px;
+          top: -55px;
+        }
+
+        &.color-blue {
+          background-color: $primary-color;
+          background: $primary-color;
+          box-shadow: 0px 8px 8px rgba(41, 113, 240, 0.2);
+          border-radius: 128.571px;
+        }
+
+        &.color-yellow {
+          background-color: $secondary-color;
+          background: $secondary-color;
+          box-shadow: 0px 8px 8px rgba(255, 183, 0, 0.2);
+          border-radius: 128.571px;
+        }
+
+        p {
+          margin: 0 auto;
+          color: $primary-text-color;
+          font-size: 28.2857px;
+          line-height: 36px;
+
+          @media (max-width: 600px) {
+            font-size: 20.4286px;
+            line-height: 26px;
+          }
+        }
+      }
+
+      .desc {
+        @media (max-width: 600px) {
+          margin-top: -42px;
+        }
+
+        p {
+          margin: 0 auto;
+          text-align: center;
+          max-width: 69%;
+        }
+      }
+    }
+  }
+}

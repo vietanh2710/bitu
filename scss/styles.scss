@@ -1,0 +1,21 @@
+//base
+@import "base/_base.scss";
+@import "base/_variables.scss";
+// @import "base/_reset.scss";
+
+//components
+@import "components/_header.scss";
+@import "components/_banner.scss";
+@import "components/_introduce.scss";
+@import "components/_description.scss";
+@import "components/_moderator.scss";
+@import "components/_detail.scss";
+@import "components/_experience.scss";
+@import "components/_feedback.scss";
+@import "components/_about.scss";
+@import "components/_trial.scss";
+@import "components/_footer.scss";
+
+//elements
+@import "elements/_arrow.scss";
+@import "elements/_title.scss";

@@ -1,0 +1,142 @@
+.description {
+  width: 100%;
+  overflow-x: hidden;
+
+  &__wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 253px;
+
+    @media (max-width: 1024px) {
+      padding: 253px 24px 20px 24px;
+    }
+
+    @media (max-width: 600px) {
+      padding-top: 40px;
+    }
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 55px;
+    max-width: 93%;
+
+    @media (max-width: 600px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template-columns: unset;
+    }
+
+    .content-left {
+      padding-top: 50px;
+
+      @media (max-width: 600px) {
+        padding-top: 0;
+      }
+
+      .content-title {
+        font-size: 44px;
+        line-height: 56px;
+        margin-bottom: 24px;
+        max-width: 93%;
+
+        @media (max-width: 600px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+
+        span {
+          color: $secondary-bg-color;
+        }
+      }
+
+      .content-desc {
+        font-size: 22px;
+        line-height: 32px;
+        max-width: 520px;
+
+        @media (max-width: 600px) {
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        p:first-child {
+          margin-bottom: 24px;
+        }
+      }
+    }
+
+    .content-right {
+      position: relative;
+
+      .web {
+        display: block;
+
+        @media (max-width: 600px) {
+          display: none;
+        }
+      }
+
+      .mobile {
+        display: none;
+
+        @media (max-width: 600px) {
+          margin-top: 45px;
+          display: block;
+        }
+      }
+
+      img {
+        position: relative;
+        display: block;
+        max-width: 115%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .quote {
+    text-align: center;
+    width: 100%;
+    background-color: $secondary-bg-color;
+    color: $primary-text-color;
+    border-radius: 24px;
+    padding: 32px 0;
+    margin-top: 46px;
+
+    @media (max-width: 600px) {
+      padding: 16px 0;
+    }
+
+    &-text {
+      font-size: 26px;
+      line-height: 32px;
+      margin-bottom: 16px;
+
+      @media (max-width: 600px) {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 2px;
+      }
+    }
+
+    &-subtext {
+      font-size: 32px;
+      font-style: italic;
+      line-height: 32px;
+
+      @media (max-width: 600px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+}

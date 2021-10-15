@@ -1,0 +1,76 @@
+.introduce {
+  background-color: $secondary-color;
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 180px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    max-height: 974px;
+    height: 100%;
+
+    @media (max-width: 1024px) {
+      padding: 180px 24px 0 24px;
+    }
+
+    @media (max-width: 768px) {
+      padding-top: 0;
+      grid-template-columns: unset;
+      max-height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &-left {
+    img {
+      position: relative;
+      display: block;
+      max-width: 135%;
+      left: -95px;
+      height: 100%;
+      object-fit: cover;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  &-right {
+    max-width: 518px;
+    width: 100%;
+    padding-top: 95px;
+    padding-left: 25px;
+
+    @media (max-width: 768px) {
+      padding-left: 0;
+    }
+
+    .title {
+      color: $gray-900;
+      margin-bottom: 32px;
+    }
+
+    .desc {
+      p {
+        font-size: 22px;
+        color: $gray-900;
+        line-height: 32px;
+
+        @media (max-width: 600px) {
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        &:first-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

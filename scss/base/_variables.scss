@@ -1,0 +1,47 @@
+@font-face {
+  font-family: novecenUltraBold;
+  src: url("/dist/assets/fonts/iCielNovecentosans-UltraBold.otf");
+}
+
+@font-face {
+  font-family: novecenRegular;
+  src: url("/dist/assets/fonts/iCielNovecentosans-Normal.otf");
+}
+
+@font-face {
+  font-family: novecenMedium;
+  src: url("/dist/assets/fonts/iCielNovecentosans-Medium.otf");
+}
+
+@font-face {
+  font-family: novecenLigth;
+  src: url("/dist/assets/fonts/iCielNovecentosans-Light.otf");
+}
+
+@font-face {
+  font-family: novecenExtraLigth;
+  src: url("/dist/assets/fonts/iCielNovecentosans-ExtraLight.otf");
+}
+
+// Colors
+$primary-color: #2995f0;
+$secondary-color: #ffb700;
+
+$primary-text-color: #fff;
+$secondary-text-color: #4a5568;
+$custom-text-color: #ffb700;
+$gray-900: #1a202c;
+$gray-800: #2d3748;
+$gray-600: #718096;
+
+$primary-bg-color: #fff;
+$secondary-bg-color: #ff6d03;
+
+$border-bottom-color: #edf2f7;
+
+// Fonts
+$ff-ultraBold: novecenUltraBold;
+$ff-regular: novecenRegular;
+$ff-medium: novecenMedium;
+$ff-ligth: novecenLigth;
+$ff-extraLigth: novecenExtraLigth;

@@ -1,0 +1,78 @@
+.course-detail {
+  overflow-x: hidden;
+  width: 100%;
+  background-image: url("/assets/images/course-detail-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $secondary-bg-color;
+  position: relative;
+
+  > img {
+    position: absolute;
+    top: -16%;
+    left: 3%;
+    height: auto;
+    max-width: 313px;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 73px 10px 32px 10px;
+
+    @media (max-width: 1024px) {
+      padding: 73px 24px 32px 24px;
+    }
+
+    @media (max-width: 1024px) {
+      padding-top: 39px;
+    }
+
+    img {
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    .text {
+      font-size: 56px;
+      line-height: 71px;
+      color: $primary-text-color;
+      padding-bottom: 16px;
+
+      @media (max-width: 600px) {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    .subtext {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 16px;
+
+      p {
+        max-width: 347px;
+        background-color: $secondary-color;
+        border-radius: 16px;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        padding: 9px 30px 8px 30px;
+
+        @media (max-width: 600px) {
+          font-size: 24px;
+          line-height: 30px;
+          padding: 8px 16px;
+        }
+      }
+    }
+  }
+}

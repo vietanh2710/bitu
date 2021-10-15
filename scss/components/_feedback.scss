@@ -1,0 +1,85 @@
+.feedback {
+  background-color: $primary-color;
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+
+    @media (max-width: 600px) {
+      padding-bottom: 46px;
+    }
+
+    > img {
+      display: none;
+
+      @media (max-width: 600px) {
+        display: block;
+        position: absolute;
+        display: block;
+        object-fit: cover;
+        left: 25px;
+        top: 11%;
+        width: 80px;
+        height: auto;
+      }
+    }
+  }
+
+  .carousel-feedback {
+    > div {
+      position: relative;
+
+      img {
+        @media (max-width: 600px) {
+          max-width: 209px;
+        }
+      }
+    }
+  }
+
+  .title {
+    color: $primary-text-color;
+    text-align: center;
+    padding-top: 180px;
+    margin-bottom: 105px;
+    background-image: url("/assets/images/dots2.png");
+    background-position: left bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    @media (max-width: 600px) {
+      font-size: 32px;
+      line-height: 40px;
+      padding-top: 40px;
+      width: 54%;
+      margin: 0 auto 32px auto;
+      background-image: unset;
+    }
+  }
+
+  .img-dots {
+    @media (max-width: 600px) {
+      position: absolute;
+      right: 20px;
+      bottom: 35px;
+    }
+
+    img {
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+
+      @media (max-width: 600px) {
+        width: 80px;
+        height: auto;
+      }
+    }
+  }
+
+  .slick-next {
+    top: 35%;
+  }
+}
