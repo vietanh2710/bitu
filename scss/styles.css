@@ -1071,10 +1071,6 @@ li {
   }
 }
 
-.experience {
-  overflow-x: hidden;
-}
-
 .experience__wrapper {
   width: 100%;
   max-width: 1320px;
