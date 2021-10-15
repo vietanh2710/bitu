@@ -106,7 +106,6 @@
 
       @media (max-width: 768px) {
         margin-right: 0;
-        // margin-left: 12px;
       }
 
       @media (max-width: 600px) {
@@ -117,6 +116,7 @@
 
     img {
       object-fit: scale-down;
+      margin-right: 12px;
     }
   }
 

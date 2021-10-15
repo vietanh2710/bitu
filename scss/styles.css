@@ -1207,6 +1207,13 @@ li {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  .feedback .carousel-feedback > div img {
+    margin: 0 auto;
+    max-height: 450px;
+  }
+}
+
 .feedback .title {
   color: #fff;
   text-align: center;
@@ -1578,6 +1585,7 @@ li {
 .footer .link img {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+  margin-right: 12px;
 }
 
 .footer .copy-right {

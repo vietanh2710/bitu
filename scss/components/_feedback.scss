@@ -34,7 +34,8 @@
 
       img {
         @media (max-width: 600px) {
-          // max-width: 209px;
+          margin: 0 auto;
+          max-height: 450px;
         }
       }
     }
