@@ -124,7 +124,7 @@
         top: 6%;
 
         @media (max-width: 600px) {
-          width: 120px;
+          max-width: 120px;
           height: auto;
         }
       }

@@ -413,7 +413,7 @@ li {
 
 @media (max-width: 600px) {
   .banner-right img:first-child {
-    width: 120px;
+    max-width: 120px;
     height: auto;
   }
 }
