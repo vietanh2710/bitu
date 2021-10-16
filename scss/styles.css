@@ -888,6 +888,12 @@ li {
   color: #1a202c;
 }
 
+@media (max-width: 768px) {
+  .moderator-member .container .text {
+    margin-bottom: 24px;
+  }
+}
+
 @media (max-width: 600px) {
   .moderator-member .container .text {
     font-size: 24px;
@@ -1040,7 +1046,6 @@ li {
   line-height: 19px;
   color: #718096;
   padding-bottom: 16px;
-  height: 60px;
 }
 
 @media (max-width: 600px) {
