@@ -102,6 +102,8 @@
       }
 
       .desc {
+        color: $gray-900;
+
         @media (max-width: 600px) {
           margin-top: -42px;
         }

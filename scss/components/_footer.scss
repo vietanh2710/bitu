@@ -120,6 +120,7 @@
 
   .copy-right {
     display: none;
+    color: $gray-900;
 
     @media (max-width: 600px) {
       text-align: center;
