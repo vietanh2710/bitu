@@ -33,6 +33,9 @@
   }
 
   &-left {
+    position: relative;
+    z-index: 10;
+
     img {
       position: relative;
       display: block;
@@ -49,6 +52,8 @@
   }
 
   &-right {
+    position: relative;
+    z-index: 12;
     max-width: 518px;
     width: 100%;
     padding-top: 80px;

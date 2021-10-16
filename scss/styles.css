@@ -490,6 +490,11 @@ li {
   }
 }
 
+.introduce-left {
+  position: relative;
+  z-index: 10;
+}
+
 .introduce-left img {
   position: relative;
   display: block;
@@ -508,6 +513,8 @@ li {
 }
 
 .introduce-right {
+  position: relative;
+  z-index: 12;
   max-width: 518px;
   width: 100%;
   padding-top: 80px;
