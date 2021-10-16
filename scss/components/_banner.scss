@@ -98,11 +98,15 @@
         }
 
         @media (max-width: 320px) {
-          max-width: 135px;
+          max-width: 130px;
         }
 
         &:first-child {
           margin-right: 20px;
+
+          @media (max-width: 375px) {
+            margin-right: 5px;
+          }
         }
       }
     }

@@ -176,9 +176,9 @@ li {
 @media only screen and (max-width: 768px) {
   .header .nav-menu {
     position: fixed;
-    left: -100%;
+    top: -100%;
     z-index: 1000;
-    top: 0;
+    left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -203,7 +203,7 @@ li {
 @media only screen and (max-width: 768px) {
   .header .nav-menu.active {
     position: fixed;
-    left: 0;
+    top: 0;
     display: block;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -381,12 +381,18 @@ li {
 
 @media (max-width: 320px) {
   .banner-left .image-box img {
-    max-width: 135px;
+    max-width: 130px;
   }
 }
 
 .banner-left .image-box img:first-child {
   margin-right: 20px;
+}
+
+@media (max-width: 375px) {
+  .banner-left .image-box img:first-child {
+    margin-right: 5px;
+  }
 }
 
 .banner-right {
