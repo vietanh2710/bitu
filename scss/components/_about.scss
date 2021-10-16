@@ -36,6 +36,10 @@
     > div {
       max-width: 58%;
 
+      @media (max-width: 768px) {
+        padding-right: 20px;
+      }
+
       p {
         &:first-child {
           font-size: 22px;
