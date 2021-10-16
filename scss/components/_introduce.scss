@@ -1,9 +1,13 @@
 .introduce {
-  // background-color: $secondary-color;
   background-image: url("/assets/images/introduce-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media (max-width: 600px) {
+    background-color: $secondary-color;
+    background-image: unset;
+  }
 
   &__wrapper {
     width: 100%;

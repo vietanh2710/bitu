@@ -1,16 +1,6 @@
 /* eslint-disable quotes */
 $(document).ready(function () {
-  window.addEventListener("resize", function () {
-    const tag = document.querySelector(
-      ".experience .experience__wrapper .container"
-    );
-
-    if ($(document).width() <= 1000) {
-      tag.classList.add("carousel-experience");
-    } else {
-      tag.classList.remove("carousel-experience");
-    }
-
+  if ($(document).width() <= 1000) {
     $(".carousel-experience").slick({
       lazyLoad: "ondemand",
       infinite: true,
@@ -42,7 +32,7 @@ $(document).ready(function () {
         },
       ],
     });
-  });
+  }
 
   $(".carousel-moderator").slick({
     lazyLoad: "ondemand",

@@ -448,6 +448,13 @@ li {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 600px) {
+  .introduce {
+    background-color: #ffb700;
+    background-image: unset;
+  }
+}
+
 .introduce__wrapper {
   width: 100%;
   max-width: 1320px;
@@ -811,6 +818,12 @@ li {
 
 @media (max-width: 600px) {
   .moderator-member__wrapper {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .moderator-member__wrapper {
     margin-top: 40px;
   }
 }
@@ -841,6 +854,7 @@ li {
 @media (max-width: 600px) {
   .moderator-member .container .intro {
     margin-bottom: 24px;
+    padding: 0 24px;
   }
 }
 
@@ -871,6 +885,7 @@ li {
   .moderator-member .container .text {
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 18px;
   }
 }
 
@@ -1060,23 +1075,31 @@ li {
   .moderator-member .container .topic {
     -ms-grid-columns: unset;
         grid-template-columns: unset;
+    margin-top: 40px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .moderator-member .container .topic {
-    margin-top: 40px;
+    padding-top: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 109, 3, 0.1)), to(rgba(255, 109, 3, 0)));
+    background: linear-gradient(180deg, rgba(255, 109, 3, 0.1) 0%, rgba(255, 109, 3, 0) 100%);
   }
 }
 
 @media (max-width: 600px) {
   .moderator-member .container .topic-left {
     margin-bottom: 28px;
+    padding: 0 24px;
   }
 }
 
 .moderator-member .container .topic-left .subtext {
   max-width: 80%;
+}
+
+.moderator-member .container .topic-left .subtext span {
+  font-family: circularBold;
 }
 
 @media (max-width: 768px) {
@@ -1785,6 +1808,7 @@ li {
 @media (max-width: 600px) {
   .trial .image-box {
     padding-bottom: 32px;
+    padding-top: 23px;
   }
 }
 
