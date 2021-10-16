@@ -1048,6 +1048,7 @@ li {
   line-height: 19px;
   color: #718096;
   padding-bottom: 16px;
+  height: 60px;
 }
 
 @media (max-width: 600px) {
