@@ -1740,6 +1740,7 @@ li {
 
 @media (max-width: 600px) {
   .footer .copy-right {
+    text-align: center;
     font-size: 16px;
     line-height: 20px;
     margin: 32px auto 0 auto;
