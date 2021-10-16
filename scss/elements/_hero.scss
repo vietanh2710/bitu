@@ -1,9 +1,9 @@
 .hero {
   background: linear-gradient(103.62deg, #2995f0 0%, #2963f0 59.75%);
+  position: relative;
 }
 
 .hero-backdrop {
-  overflow-x: hidden;
   position: absolute;
   left: 0;
   top: 0;

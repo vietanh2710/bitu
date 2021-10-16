@@ -31,12 +31,12 @@
   }
 
   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
 
     @media (max-width: 1000px) {
       display: block;
-      grid-template-columns: unset;
+      // grid-template-columns: unset;
     }
 
     .step-wrapper {
@@ -51,10 +51,6 @@
           width: 100%;
           height: auto;
           display: block;
-
-          // @media (max-width: 600px) {
-          //   max-height: 554px;
-          // }
         }
       }
 
@@ -68,7 +64,7 @@
         max-width: 72px;
         height: 72px;
         position: relative;
-        top: -75px;
+        top: -90px;
         font-family: $ff-bock;
 
         @media (max-width: 600px) {

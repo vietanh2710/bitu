@@ -1,38 +1,38 @@
 /* eslint-disable quotes */
 $(document).ready(function () {
-  if ($(document).width() <= 1000) {
-    $(".carousel-experience").slick({
-      lazyLoad: "ondemand",
-      infinite: true,
-      centerMode: true,
-      responsive: [
-        {
-          breakpoint: 1000,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            arrows: false,
-          },
+  $(".carousel-experience").slick({
+    lazyLoad: "ondemand",
+    infinite: true,
+    centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            arrows: false,
-          },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
         },
-        {
-          breakpoint: 425,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-          },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
         },
-      ],
-    });
-  }
+      },
+    ],
+  });
 
   $(".carousel-moderator").slick({
     lazyLoad: "ondemand",
