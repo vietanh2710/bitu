@@ -34,7 +34,6 @@ $(document).ready(function () {
         },
       ],
     });
-    console.log("object :>> ");
   });
 
   $(".carousel-moderator").slick({
