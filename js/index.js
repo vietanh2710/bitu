@@ -1,85 +1,23 @@
 /* eslint-disable quotes */
 $(document).ready(function () {
-  $(".carousel").slick({
-    lazyLoad: "ondemand",
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: true,
-    centerMode: true,
-    nextArrow: "<img class='slick-next' src='/assets/images/arrow-right.png'>",
-    responsive: [
-      {
-        breakpoint: 1100,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          arrows: true,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-    ],
-  });
+  window.addEventListener("resize", function () {
+    const tag = document.querySelector(
+      ".experience .experience__wrapper .container"
+    );
 
-  $(".carousel-feedback").slick({
-    lazyLoad: "ondemand",
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: true,
-    centerMode: true,
-    nextArrow: "<img class='slick-next' src='/assets/images/arrow-right.png'>",
-    responsive: [
-      {
-        breakpoint: 1100,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: true,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-    ],
-  });
+    if ($(document).width() <= 1000) {
+      tag.classList.add("carousel-experience");
+    } else {
+      tag.classList.remove("carousel-experience");
+    }
 
-  if ($(document).width() <= 800) {
     $(".carousel-experience").slick({
       lazyLoad: "ondemand",
       infinite: true,
       centerMode: true,
       responsive: [
         {
-          breakpoint: 800,
+          breakpoint: 1000,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -96,7 +34,80 @@ $(document).ready(function () {
         },
       ],
     });
-  }
+    console.log("object :>> ");
+  });
+
+  $(".carousel-moderator").slick({
+    lazyLoad: "ondemand",
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: "<img class='slick-next' src='/assets/images/arrow-right.png'>",
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          centerMode: true,
+        },
+      },
+    ],
+  });
+
+  $(".carousel-feedback").slick({
+    lazyLoad: "ondemand",
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: "<img class='slick-next' src='/assets/images/arrow-right.png'>",
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          centerMode: true,
+        },
+      },
+    ],
+  });
 
   $(".hamburger").on("click", function (event) {
     event.preventDefault();

@@ -1,6 +1,9 @@
 .trial {
   margin-top: 180px;
-  background-color: $secondary-color;
+  background-image: url("/assets/images/trial-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &.web {
     display: block;

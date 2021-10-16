@@ -1,5 +1,5 @@
 .banner {
-  background-color: $primary-color;
+  // background-color: $primary-color;
 
   @media (max-width: 1024px) {
     width: 100%;
@@ -141,6 +141,10 @@
 
       &:last-child {
         position: relative;
+
+        @media (max-width: 768px) {
+          position: relative;
+        }
       }
 
       @media (max-width: 600px) {

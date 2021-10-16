@@ -1,5 +1,9 @@
 .introduce {
-  background-color: $secondary-color;
+  // background-color: $secondary-color;
+  background-image: url("/assets/images/introduce-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   &__wrapper {
     width: 100%;
@@ -9,7 +13,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    max-height: 974px;
     height: 100%;
 
     @media (max-width: 1024px) {

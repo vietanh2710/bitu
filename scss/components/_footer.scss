@@ -38,6 +38,7 @@
   .items {
     grid-column: 3 / span 8;
     padding-left: 10px;
+    color: $gray-900;
 
     @media (max-width: 768px) {
       padding-left: 80px;

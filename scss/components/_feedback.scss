@@ -1,5 +1,5 @@
 .feedback {
-  background-color: $primary-color;
+  position: relative;
 
   &__wrapper {
     width: 100%;
@@ -29,7 +29,7 @@
 
   .carousel-feedback {
     .slick-slide {
-      padding: 0 10px;
+      padding: 0 12px;
     }
 
     > div {
@@ -47,7 +47,7 @@
     text-align: center;
     padding-top: 180px;
     margin-bottom: 105px;
-    background-image: url("/assets/images/dots2.png");
+    background-image: url("/assets/images/dots1.png");
     background-position: left bottom;
     background-size: auto;
     background-repeat: no-repeat;

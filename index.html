@@ -19,81 +19,86 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
-      <div class="header__wrapper">
-        <nav class="navbar">
-          <a href="#" class="nav-logo">
-            <img src="assets/images/logo.svg" alt="" />
-          </a>
-
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#top-page" class="nav-link active">Trang chủ</a>
-            </li>
-            <li class="nav-item">
-              <a href="#top-page" class="nav-link">Về chúng tôi</a>
-            </li>
-            <li class="nav-item">
-              <a href="#top-page" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="#top-page" class="nav-link">Tuyển dụng</a>
-            </li>
-            <li class="nav-item language">
-              <div>
-                <img src="/assets/images/language.png" alt="" />
-                <div>EN</div>
-              </div>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <div class="backdrop"></div>
+    <div class="hero">
+      <div class="hero-backdrop">
+        <img src="/assets/images/grid-bg.png" alt="" />
       </div>
-    </header>
+      <header class="header">
+        <div class="header__wrapper">
+          <nav class="navbar">
+            <a href="#" class="nav-logo">
+              <img src="assets/images/logo.svg" alt="" />
+            </a>
 
-    <!-- banner -->
-    <div class="banner">
-      <div class="banner__wrapper">
-        <div class="banner-left">
-          <div class="content">
-            <div class="content-title">
-              Ứng dụng <br />
-              luyện nói tiếng Anh <br />
-              <span>với người nước ngoài</span>
-            </div>
-            <div class="content-desc">
-              <div>
-                <img src="/assets/images/tick.svg" alt="" />
-                <div class="text">Không cần đặt lịch với Moderator</div>
-              </div>
-              <div>
-                <img src="/assets/images/tick.svg" alt="" />
-                <div class="text">100% Moderator người nước ngoài</div>
-              </div>
-              <div>
-                <img src="/assets/images/tick.svg" alt="" />
-                <div class="text">Chỉ từ 40.0000đ/buổi</div>
-              </div>
-            </div>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#top-page" class="nav-link active">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#top-page" class="nav-link">Về chúng tôi</a>
+              </li>
+              <li class="nav-item">
+                <a href="#top-page" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#top-page" class="nav-link">Tuyển dụng</a>
+              </li>
+              <li class="nav-item language">
+                <div>
+                  <img src="/assets/images/language.png" alt="" />
+                  <div>EN</div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-          <div class="image-box">
-            <a href="">
-              <img src="/assets/images/btnAppStore.png" alt="" />
-            </a>
-            <a href="">
-              <img src="/assets/images/btnCHPlay.png" alt="" />
-            </a>
-          </div>
+          <div class="backdrop"></div>
         </div>
-        <div class="banner-right">
-          <img src="/assets/images/try-it.png" alt="" />
-          <img src="/assets/images/banner.png" alt="" />
+      </header>
+
+      <!-- banner -->
+      <div class="banner">
+        <div class="banner__wrapper">
+          <div class="banner-left">
+            <div class="content">
+              <div class="content-title">
+                Ứng dụng <br />
+                luyện nói tiếng Anh <br />
+                <span>với người nước ngoài</span>
+              </div>
+              <div class="content-desc">
+                <div>
+                  <img src="/assets/images/tick.svg" alt="" />
+                  <div class="text">Không cần đặt lịch với Moderator</div>
+                </div>
+                <div>
+                  <img src="/assets/images/tick.svg" alt="" />
+                  <div class="text">100% Moderator người nước ngoài</div>
+                </div>
+                <div>
+                  <img src="/assets/images/tick.svg" alt="" />
+                  <div class="text">Chỉ từ 40.0000đ/buổi</div>
+                </div>
+              </div>
+            </div>
+            <div class="image-box">
+              <a href="">
+                <img src="/assets/images/btnAppStore.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/btnCHPlay.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="banner-right">
+            <img src="/assets/images/free.png" alt="" />
+            <img src="/assets/images/banner.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -152,10 +157,22 @@
             <img class="mobile" src="/assets/images/desc-mobile.png" alt="" />
           </div>
         </div>
-        <div class="quote">
+
+        <div class="quote mobile">
           <div class="quote-text">Bí quyết duy nhất dành cho bạn</div>
           <div class="quote-subtext">“Open your mouth and say something”</div>
         </div>
+      </div>
+    </div>
+
+    <div class="quote web">
+      <div class="quote__wrapper">
+        <img src="/assets/images/quote 1.png" alt="" />
+        <div class="quote-text">Bí quyết duy nhất dành cho bạn</div>
+        <div class="quote-subtext">
+          “Open your mouth <span>and</span> say something”
+        </div>
+        <img src="/assets/images/quote 2.png" alt="" />
       </div>
     </div>
 
@@ -163,27 +180,29 @@
     <div class="moderator-member">
       <div class="moderator-member__wrapper">
         <div class="container">
-          <div class="text">
-            100% Moderator nước ngoài <span>trẻ trung, đầy năng lượng</span>
-          </div>
-          <div class="subtext">
-            <p>
-              Đội ngũ Moderator của Bitu được tuyển chọn kĩ lưỡng qua nhiều vòng
-              xét hồ sơ, phỏng vấn và training quy củ. Họ có nhiều năm kinh
-              nghiệm giảng dạy tiếng Anh cho học viên ở các quốc gia như Hàn
-              Quốc, Nhật Bản, trung Quốc, Nga, Brazil,...và sở hữu các chứng chỉ
-              sư phạm quốc tế uy tín bao gồm TESOL, TEFL và CELTA.
-            </p>
+          <div class="intro">
+            <div class="text">
+              100% Moderator nước ngoài <span>trẻ trung, đầy năng lượng</span>
+            </div>
+            <div class="subtext">
+              <p>
+                Đội ngũ Moderator của Bitu được tuyển chọn kĩ lưỡng qua nhiều
+                vòng xét hồ sơ, phỏng vấn và training quy củ. Họ có nhiều năm
+                kinh nghiệm giảng dạy tiếng Anh cho học viên ở các quốc gia như
+                Hàn Quốc, Nhật Bản, trung Quốc, Nga, Brazil,...và sở hữu các
+                chứng chỉ sư phạm quốc tế uy tín bao gồm TESOL, TEFL và CELTA.
+              </p>
 
-            <p>
-              Moderator không chỉ là người hướng dẫn học viên phát âm, diễn đạt,
-              giao tiếp bằng tiếng Anh tốt hơn, họ còn là những người bạn đầy
-              nhiệt huyết và thân thiện, giúp các buổi luyện nói của Bitu không
-              chỉ có sự hiệu quả mà còn đầy niềm vui.
-            </p>
+              <p>
+                Moderator không chỉ là người hướng dẫn học viên phát âm, diễn
+                đạt, giao tiếp bằng tiếng Anh tốt hơn, họ còn là những người bạn
+                đầy nhiệt huyết và thân thiện, giúp các buổi luyện nói của Bitu
+                không chỉ có sự hiệu quả mà còn đầy niềm vui.
+              </p>
+            </div>
           </div>
 
-          <div class="profile-moderator carousel">
+          <div class="profile-moderator carousel-moderator">
             <div class="profile-moderator__container">
               <img class="avatar" src="/assets/images/avt1.png" alt="" />
 
@@ -298,9 +317,10 @@
             </div>
           </div>
 
+          <!--
           <div class="img-pencil">
             <img src="/assets/images/pencil.png" alt="" />
-          </div>
+          </div> -->
 
           <div class="topic">
             <div class="topic-left">
@@ -332,9 +352,39 @@
       </div>
     </div>
 
+    <!-- flow -->
+    <div class="flow">
+      <div class="flow__wrapper">
+        <div class="title">Lộ trình tiến bộ rõ ràng</div>
+        <div class="desc">Tiến bộ chỉ sau 36 buổi học</div>
+        <div class="diagram">
+          <div class="step">
+            <img src="/assets/images/begin.png" alt="" />
+            <div class="text">Beginner</div>
+          </div>
+          <div class="process">
+            <img src="/assets/images/line1.png" alt="" />
+            <img src="/assets/images/lesson1.png" alt="" />
+          </div>
+          <div class="step">
+            <img src="/assets/images/elementary.png" alt="" />
+            <div class="text">Elementary</div>
+          </div>
+          <div class="process">
+            <img src="/assets/images/line2.png" alt="" />
+            <img src="/assets/images/lesson2.png" alt="" />
+          </div>
+          <div class="step">
+            <img src="/assets/images/pre.png" alt="" />
+            <div class="text">Pre-Intermediate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- course detail -->
     <div class="course-detail">
-      <img src="/assets/images/arrow-custom.png" alt="" />
+      <!-- <img src="/assets/images/arrow-custom.png" alt="" /> -->
 
       <div class="course-detail__wrapper">
         <div class="text">Học Bitu cực tiện lợi</div>
@@ -358,14 +408,14 @@
         <div class="container carousel-experience">
           <div class="step-wrapper">
             <div>
-              <img src="/assets/images/X-289.png" alt="" />
+              <img src="/assets/images/X - 289.png" alt="" />
               <div class="step"><p>1</p></div>
             </div>
             <div class="desc"><p>Chọn chủ đề nói mà bạn yêu thích</p></div>
           </div>
           <div class="step-wrapper">
             <div>
-              <img src="/assets/images/X-289.png" alt="" />
+              <img src="/assets/images/X - 197.png" alt="" />
               <div class="step color-yellow"><p>2</p></div>
             </div>
             <div class="desc">
@@ -374,7 +424,7 @@
           </div>
           <div class="step-wrapper">
             <div>
-              <img src="/assets/images/X-289.png" alt="" />
+              <img src="/assets/images/Default.png" alt="" />
               <div class="step color-blue"><p>3</p></div>
             </div>
             <div class="desc"><p>Vào phòng nói chuyện</p></div>
@@ -384,29 +434,33 @@
     </div>
 
     <!-- feedback -->
-    <div class="feedback">
+    <div class="feedback hero">
+      <div class="hero-backdrop">
+        <img src="/assets/images/grid-bg.png" alt="" />
+        <img src="/assets/images/grid-bg.png" alt="" />
+      </div>
       <div class="feedback__wrapper">
-        <img src="/assets/images/dots2.png" alt="" />
+        <img src="/assets/images/dots1.png" alt="" />
         <div class="title">Feedback của học viên</div>
         <div class="carousel-feedback">
           <div>
-            <img src="/assets/images/feeback.png" alt="" />
+            <img src="/assets/images/feedback.png" alt="" />
           </div>
           <div>
-            <img src="/assets/images/feeback.png" alt="" />
+            <img src="/assets/images/feedback.png" alt="" />
           </div>
           <div>
-            <img src="/assets/images/feeback.png" alt="" />
+            <img src="/assets/images/feedback.png" alt="" />
           </div>
           <div>
-            <img src="/assets/images/feeback.png" alt="" />
+            <img src="/assets/images/feedback.png" alt="" />
           </div>
           <div>
-            <img src="/assets/images/feeback.png" alt="" />
+            <img src="/assets/images/feedback.png" alt="" />
           </div>
         </div>
         <div class="img-dots">
-          <img src="/assets/images/dots.png" alt="" />
+          <img src="/assets/images/dots2.png" alt="" />
         </div>
       </div>
     </div>
@@ -478,7 +532,7 @@
     <!-- trial lesson -->
     <div class="trial web">
       <div class="trial__wrapper">
-        <img src="/assets/images/trial.png" alt="" />
+        <img src="/assets/images/Bitu emotion 2-05 1.png" alt="" />
         <div class="container">
           <div class="title">Học thử ngay 2 buổi miễn phí</div>
           <div class="image-box">
@@ -495,7 +549,7 @@
 
     <div class="trial mobile">
       <div class="trial__wrapper">
-        <img src="/assets/images/trial.png" alt="" />
+        <img src="/assets/images/Bitu emotion 2-05 1.png" alt="" />
         <div class="container">
           <div class="title">
             Thử ngay <br />
@@ -528,7 +582,7 @@
             </p>
           </div>
           <div>
-            <img src="/assets/images/email.png" alt="" />
+            <img src="/assets/images/Message.svg" alt="" />
             <p>Email: support@giaotieptienganh.com.vn</p>
           </div>
           <div>

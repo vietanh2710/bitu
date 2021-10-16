@@ -1,0 +1,88 @@
+.flow {
+  background-color: rgba(255, 109, 3, 0.06);
+  overflow-x: hidden;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 171px 0;
+  }
+
+  .title {
+    color: $secondary-bg-color;
+    margin-bottom: 24px;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .desc {
+    font-size: 22px;
+    line-height: 32px;
+    color: $secondary-text-color;
+    text-align: center;
+    opacity: 1;
+    margin-bottom: 84px;
+  }
+
+  .diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+      padding: 0 24px;
+    }
+  }
+
+  .step {
+    img {
+      width: 100%;
+    }
+
+    .text {
+      color: $gray-900;
+      font-size: 22px;
+      line-height: 28px;
+      font-family: $ff-medium;
+      text-align: center;
+      padding-top: 24px;
+      height: 40px;
+    }
+  }
+
+  .process {
+    position: relative;
+    width: 268px;
+
+    img {
+      position: relative;
+
+      &:first-child {
+        top: 10px;
+        width: 103%;
+        left: -3px;
+      }
+
+      &:last-child {
+        max-width: 100%;
+        top: -42px;
+        left: 70px;
+
+        @media (max-width: 1024px) {
+          top: -38px;
+          left: 50px;
+        }
+
+        @media (max-width: 1000px) {
+          top: -37px;
+          left: 40px;
+        }
+      }
+    }
+  }
+}

@@ -5,10 +5,10 @@
   &__wrapper {
     max-width: 1320px;
     margin: 0 auto;
-    padding-top: 253px;
+    padding-top: 99px;
 
     @media (max-width: 1024px) {
-      padding: 253px 24px 20px 24px;
+      padding: 99px 24px 20px 24px;
     }
 
     @media (max-width: 600px) {
@@ -87,6 +87,9 @@
 
       .web {
         display: block;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
 
         @media (max-width: 600px) {
           display: none;
@@ -111,42 +114,103 @@
       }
     }
   }
+}
 
-  .quote {
-    text-align: center;
-    width: 100%;
-    background-color: $secondary-bg-color;
-    color: $primary-text-color;
-    border-radius: 24px;
-    padding: 32px 0;
-    margin-top: 46px;
+.quote {
+  text-align: center;
+  width: 100%;
+  color: $primary-text-color;
+  border-radius: 24px;
+  padding: 32px 0;
+  margin-top: 46px;
+
+  &.web {
+    display: block;
+    background-image: url("/assets/images/quote.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 77px 0;
+
+    .quote__wrapper {
+      max-width: 1320px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    img {
+      position: absolute;
+
+      &:first-child {
+        left: 0;
+        top: -140%;
+
+        @media (max-width: 1024px) {
+          left: 25px;
+        }
+      }
+
+      &:last-child {
+        right: 0;
+        bottom: -140%;
+
+        @media (max-width: 1024px) {
+          right: 25px;
+        }
+      }
+    }
+
+    .quote-text {
+      color: $gray-900;
+    }
+
+    .quote-subtext {
+      color: #2971f0;
+
+      span {
+        color: $gray-900;
+      }
+    }
 
     @media (max-width: 600px) {
-      padding: 16px 0;
+      display: none;
     }
+  }
 
-    &-text {
-      font-size: 26px;
-      line-height: 32px;
-      margin-bottom: 16px;
-      font-family: $ff-bock;
+  &.mobile {
+    display: none;
+    background-color: $secondary-bg-color;
 
-      @media (max-width: 600px) {
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 2px;
-      }
+    @media (max-width: 600px) {
+      display: block;
     }
+  }
 
-    &-subtext {
-      font-size: 32px;
+  @media (max-width: 600px) {
+    padding: 16px 0;
+  }
+
+  &-text {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    font-family: $ff-bock;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 2px;
+    }
+  }
+
+  &-subtext {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: $ff-mediumItalic;
+
+    @media (max-width: 600px) {
+      font-size: 24px;
       line-height: 32px;
-      font-family: $ff-mediumItalic;
-
-      @media (max-width: 600px) {
-        font-size: 24px;
-        line-height: 32px;
-      }
     }
   }
 }
