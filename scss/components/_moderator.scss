@@ -224,6 +224,10 @@
       }
 
       &-left {
+        @media (max-width: 600px) {
+          margin-bottom: 28px;
+        }
+
         .subtext {
           max-width: 80%;
 

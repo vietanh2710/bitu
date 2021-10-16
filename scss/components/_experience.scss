@@ -48,10 +48,13 @@
         height: 90%;
 
         img {
-          @media (max-width: 600px) {
-            max-height: 554px;
-            width: 100%;
-          }
+          width: 100%;
+          height: auto;
+          display: block;
+
+          // @media (max-width: 600px) {
+          //   max-height: 554px;
+          // }
         }
       }
 
