@@ -10,7 +10,15 @@ $(document).ready(function () {
     nextArrow: "<img class='slick-next' src='/assets/images/arrow-right.png'>",
     responsive: [
       {
-        breakpoint: 1025,
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
