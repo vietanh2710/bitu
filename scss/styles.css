@@ -593,6 +593,7 @@ li {
   margin-bottom: 24px;
   max-width: 93%;
   font-family: circularMedium;
+  color: #1a202c;
 }
 
 @media (max-width: 600px) {
@@ -612,6 +613,12 @@ li {
   max-width: 520px;
   font-family: circularBook;
   color: #4a5568;
+}
+
+@media (max-width: 768px) {
+  .description .container .content-left .content-desc {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -731,6 +738,7 @@ li {
   line-height: 56px;
   margin-bottom: 24px;
   font-family: circularMedium;
+  color: #1a202c;
 }
 
 @media (max-width: 600px) {
@@ -857,6 +865,7 @@ li {
 .moderator-member .container .profile-moderator__container .view-wrapper .number {
   font-size: 19px;
   line-height: 24px;
+  color: #1a202c;
 }
 
 @media (max-width: 600px) {
@@ -957,7 +966,7 @@ li {
   max-width: 80%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .moderator-member .container .topic-left .subtext {
     max-width: 100%;
   }
@@ -1030,6 +1039,7 @@ li {
 
 .course-detail__wrapper > img {
   display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -1535,10 +1545,18 @@ li {
 
 .trial .container {
   text-align: center;
+  padding-left: 54px;
+}
+
+@media (max-width: 1024px) {
+  .trial .container {
+    padding-left: 0;
+  }
 }
 
 .trial .container .title {
   margin-bottom: 56px;
+  color: #1a202c;
 }
 
 @media (max-width: 600px) {

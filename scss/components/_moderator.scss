@@ -22,6 +22,7 @@
       line-height: 56px;
       margin-bottom: 24px;
       font-family: $ff-medium;
+      color: $gray-900;
 
       @media (max-width: 600px) {
         font-size: 24px;
@@ -117,6 +118,7 @@
           .number {
             font-size: 19px;
             line-height: 24px;
+            color: $gray-900;
 
             @media (max-width: 600px) {
               font-size: 16px;
@@ -196,7 +198,7 @@
         .subtext {
           max-width: 80%;
 
-          @media (max-width: 600px) {
+          @media (max-width: 768px) {
             max-width: 100%;
           }
         }

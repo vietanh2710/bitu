@@ -73,9 +73,15 @@
 
   .container {
     text-align: center;
+    padding-left: 54px;
+
+    @media (max-width: 1024px) {
+      padding-left: 0;
+    }
 
     .title {
       margin-bottom: 56px;
+      color: $gray-900;
 
       @media (max-width: 600px) {
         font-size: 32px;
