@@ -28,6 +28,10 @@
         img {
           padding-right: 0;
           max-width: 158px;
+
+          @media (max-width: 320px) {
+            max-width: 130px;
+          }
           height: auto;
         }
       }
@@ -69,7 +73,6 @@
 
   .container {
     text-align: center;
-    padding-left: 65px;
 
     .title {
       margin-bottom: 56px;
@@ -79,6 +82,10 @@
         line-height: 40px;
         text-align: right;
         padding-left: 0;
+      }
+
+      @media (max-width: 320px) {
+        font-size: 24px;
       }
     }
   }

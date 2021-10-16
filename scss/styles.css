@@ -974,6 +974,7 @@ li {
 }
 
 .course-detail {
+  overflow-x: hidden;
   width: 100%;
   background-image: url("/assets/images/course-detail-bg.png");
   background-position: center;
@@ -1016,10 +1017,52 @@ li {
   }
 }
 
+.course-detail__wrapper > img {
+  display: block;
+}
+
 @media (max-width: 1024px) {
-  .course-detail__wrapper img {
+  .course-detail__wrapper > img {
     width: 100%;
   }
+}
+
+@media (max-width: 600px) {
+  .course-detail__wrapper > img {
+    display: none;
+  }
+}
+
+.course-detail__wrapper .img-mobile {
+  display: none;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .course-detail__wrapper .img-mobile {
+    display: block;
+  }
+}
+
+.course-detail__wrapper .img-mobile img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .course-detail__wrapper .img-mobile img:first-child {
+    position: relative;
+    left: -7%;
+  }
+}
+
+.course-detail__wrapper .img-mobile img:nth-child(2) {
+  position: relative;
+  top: -20px;
+}
+
+.course-detail__wrapper .img-mobile img:last-child {
+  top: -30px;
+  position: relative;
 }
 
 .course-detail__wrapper .text {
@@ -1101,7 +1144,7 @@ li {
   .experience .text {
     font-size: 32px;
     line-height: 40px;
-    width: 53%;
+    width: 65%;
     margin: 0 auto 24px auto;
   }
 }
@@ -1161,6 +1204,7 @@ li {
   .experience .container .step-wrapper .step {
     max-width: 52px;
     height: 52px;
+    top: -55px;
   }
 }
 
@@ -1275,7 +1319,7 @@ li {
     font-size: 32px;
     line-height: 40px;
     padding-top: 40px;
-    width: 54%;
+    width: 63%;
     margin: 0 auto 32px auto;
     background-image: unset;
   }
@@ -1426,6 +1470,12 @@ li {
   height: auto;
 }
 
+@media (max-width: 320px) {
+  .trial.mobile .trial__wrapper .image-box img {
+    max-width: 130px;
+  }
+}
+
 .trial.mobile .trial__wrapper .container .title {
   -webkit-transform: translateY(25px);
           transform: translateY(25px);
@@ -1468,7 +1518,6 @@ li {
 
 .trial .container {
   text-align: center;
-  padding-left: 65px;
 }
 
 .trial .container .title {
@@ -1481,6 +1530,12 @@ li {
     line-height: 40px;
     text-align: right;
     padding-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .trial .container .title {
+    font-size: 24px;
   }
 }
 

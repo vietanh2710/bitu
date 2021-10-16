@@ -1,4 +1,5 @@
 .course-detail {
+  overflow-x: hidden;
   width: 100%;
   background-image: url("/assets/images/course-detail-bg.png");
   background-position: center;
@@ -33,9 +34,45 @@
       padding-top: 39px;
     }
 
-    img {
+    > img {
+      display: block;
+
       @media (max-width: 1024px) {
         width: 100%;
+      }
+
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+
+    .img-mobile {
+      display: none;
+      position: relative;
+
+      @media (max-width: 600px) {
+        display: block;
+      }
+
+      img {
+        max-width: 100%;
+
+        &:first-child {
+          @media (max-width: 600px) {
+            position: relative;
+            left: -7%;
+          }
+        }
+
+        &:nth-child(2) {
+          position: relative;
+          top: -20px;
+        }
+
+        &:last-child {
+          top: -30px;
+          position: relative;
+        }
       }
     }
 
