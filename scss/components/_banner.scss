@@ -42,6 +42,9 @@
           margin-bottom: 24px;
         }
 
+        @media (max-width: ) {
+        }
+
         span {
           color: $custom-text-color;
         }
@@ -86,6 +89,7 @@
     .image-box {
       @media (max-width: 1024px) {
         display: flex;
+        flex-wrap: wrap;
       }
 
       img {
@@ -93,7 +97,11 @@
         height: auto;
 
         @media (max-width: 600px) {
-          width: 158px;
+          max-width: 158px;
+        }
+
+        @media (max-width: 320px) {
+          max-width: 135px;
         }
 
         &:first-child {
