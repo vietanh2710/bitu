@@ -1723,7 +1723,7 @@ li {
   padding: 32px 24px 0 24px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .trial.mobile .trial__wrapper {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1811,7 +1811,7 @@ li {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .trial .container {
     padding-left: 0;
   }
