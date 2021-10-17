@@ -1496,6 +1496,7 @@ li {
   max-width: 1320px;
   margin: 0 auto;
   position: relative;
+  padding: 0 24px;
 }
 
 @media (max-width: 1024px) {
@@ -1749,15 +1750,9 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 100px;
   position: relative;
   z-index: 10;
-}
-
-@media (max-width: 1024px) {
-  .trial__wrapper {
-    padding: 100px 24px 0 24px;
-  }
+  padding: 100px 24px 0 24px;
 }
 
 .trial__wrapper > img {
@@ -1992,7 +1987,7 @@ li {
   color: #1a202c;
   padding-top: 10px;
   margin-right: 16px;
-  margin-left: 15px;
+  margin-left: 10px;
   font-family: circularBook;
 }
 
