@@ -1,11 +1,16 @@
 .feedback {
   position: relative;
+  z-index: 10;
 
   &__wrapper {
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
     position: relative;
+
+    @media (max-width: 1024px) {
+      padding: 0 24px;
+    }
 
     @media (max-width: 600px) {
       padding-bottom: 46px;
@@ -29,7 +34,7 @@
 
   .carousel-feedback {
     .slick-slide {
-      padding: 0 12px;
+      padding: 0 10px;
     }
 
     > div {

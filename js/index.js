@@ -24,7 +24,7 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 425,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -59,7 +59,7 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 700,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -68,11 +68,12 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 425,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
+          centerMode: true,
         },
       },
     ],
@@ -112,7 +113,7 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 425,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

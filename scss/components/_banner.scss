@@ -1,5 +1,7 @@
 .banner {
   // background-color: $primary-color;
+  position: relative;
+  z-index: 10;
 
   @media (max-width: 1024px) {
     width: 100%;
@@ -86,7 +88,7 @@
     .image-box {
       @media (max-width: 1024px) {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
       }
 
       img {
