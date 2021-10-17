@@ -551,13 +551,7 @@ li {
 .description__wrapper {
   max-width: 1320px;
   margin: 0 auto;
-  padding-top: 99px;
-}
-
-@media (max-width: 1024px) {
-  .description__wrapper {
-    padding: 99px 24px 20px 24px;
-  }
+  padding: 99px 24px 20px 24px;
 }
 
 @media (max-width: 600px) {
