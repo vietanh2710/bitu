@@ -1273,8 +1273,9 @@ li {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 910px) {
   .flow .process img:last-child {
+    top: -30px;
     left: 28%;
   }
 }
