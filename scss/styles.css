@@ -91,7 +91,7 @@ li {
 .header .nav-menu .nav-item .nav-link {
   color: #fff;
   font-size: 17px;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@ li {
       -ms-flex: 1;
           flex: 1;
   padding: 7px 6px;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .header .nav-menu .nav-item.language > div img {
@@ -288,7 +288,7 @@ li {
   color: #fff;
   margin-bottom: 32px;
   line-height: 81px;
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -335,7 +335,7 @@ li {
 
 .banner-left .content-desc > div .text {
   color: #fff;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-size: 22px;
 }
 
@@ -529,7 +529,7 @@ li {
   font-size: 22px;
   color: #1a202c;
   line-height: 32px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -602,7 +602,7 @@ li {
   line-height: 56px;
   margin-bottom: 24px;
   max-width: 93%;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   color: #1a202c;
 }
 
@@ -621,7 +621,7 @@ li {
   font-size: 22px;
   line-height: 32px;
   max-width: 520px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   color: #4a5568;
 }
 
@@ -769,7 +769,7 @@ li {
   font-size: 26px;
   line-height: 32px;
   margin-bottom: 16px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -783,7 +783,7 @@ li {
 .quote-subtext {
   font-size: 32px;
   line-height: 32px;
-  font-family: circularMediumItalic;
+  font-family: circularMediumItalic, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -861,7 +861,7 @@ li {
 .moderator-member .container .text {
   font-size: 44px;
   line-height: 56px;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   color: #1a202c;
 }
 
@@ -887,7 +887,7 @@ li {
   font-size: 22px;
   line-height: 32px;
   color: #4a5568;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -949,7 +949,7 @@ li {
   line-height: 30px;
   color: #1a202c;
   padding-bottom: 12px;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -969,7 +969,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 12px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -1089,7 +1089,7 @@ li {
 }
 
 .moderator-member .container .topic-left .subtext span {
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 768px) {
@@ -1195,7 +1195,7 @@ li {
   color: #1a202c;
   font-size: 22px;
   line-height: 28px;
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   text-align: center;
   padding-top: 24px;
   height: 50px;
@@ -1363,7 +1363,7 @@ li {
   line-height: 71px;
   color: #fff;
   padding-bottom: 16px;
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -1392,12 +1392,12 @@ li {
   font-size: 32px;
   line-height: 40px;
   text-align: center;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   padding: 8px 15px;
 }
 
 .course-detail__wrapper .subtext p > span {
-  font-family: circularMedium;
+  font-family: circularMedium, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -1431,7 +1431,7 @@ li {
   line-height: 71px;
   color: #2d3748;
   text-align: center;
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -1481,7 +1481,7 @@ li {
   height: 72px;
   position: relative;
   top: -90px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
@@ -1536,7 +1536,7 @@ li {
   margin: 0 auto;
   text-align: center;
   max-width: 69%;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .feedback {
@@ -1726,14 +1726,14 @@ li {
   line-height: 28px;
   margin-bottom: 12px;
   color: #1a202c;
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .about .content-left > div p:last-child {
   font-size: 16px;
   line-height: 20px;
   color: #718096;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .about .content-left img {
@@ -2005,7 +2005,7 @@ li {
   font-size: 16px;
   line-height: 20px;
   color: #1a202c;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .footer .items > div:not(:last-child) {
@@ -2057,7 +2057,7 @@ li {
   padding-top: 10px;
   margin-right: 16px;
   margin-bottom: 8px;
-  font-family: circularBook;
+  font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 950px) {
@@ -2091,7 +2091,7 @@ li {
     line-height: 20px;
     margin: 32px auto 0 auto;
     display: block;
-    font-family: circularBook;
+    font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
@@ -2124,7 +2124,7 @@ li {
   font-size: 56px;
   line-height: 71px;
   color: #1a202c;
-  font-family: circularBold;
+  font-family: circularBold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 @media (max-width: 600px) {
