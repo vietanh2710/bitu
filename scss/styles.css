@@ -545,7 +545,6 @@ li {
 
 .description {
   width: 100%;
-  overflow-x: hidden;
 }
 
 .description__wrapper {
@@ -635,6 +634,7 @@ li {
   .description .container .content-left .content-desc {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 45px;
   }
 }
 
@@ -683,13 +683,8 @@ li {
 .quote {
   text-align: center;
   width: 100%;
-  color: #fff;
   border-radius: 24px;
-  padding: 32px 0;
   margin-top: 83px;
-}
-
-.quote.web {
   display: block;
   background-image: url("/assets/images/quote.png");
   background-repeat: no-repeat;
@@ -698,65 +693,86 @@ li {
   padding: 77px 24px;
 }
 
-.quote.web .quote__wrapper {
+@media (max-width: 600px) {
+  .quote {
+    margin-bottom: 33px;
+    background-image: url("/assets/images/quote-bg-mobile.png");
+  }
+}
+
+.quote .quote__wrapper {
   max-width: 1320px;
   margin: 0 auto;
   position: relative;
 }
 
-.quote.web img {
+.quote img {
   position: absolute;
 }
 
-.quote.web img:first-child {
+@media (max-width: 600px) {
+  .quote img {
+    max-width: 29px;
+    height: auto;
+  }
+}
+
+.quote img:first-child {
   left: 0;
   top: -140%;
 }
 
 @media (max-width: 1024px) {
-  .quote.web img:first-child {
+  .quote img:first-child {
     left: 25px;
   }
 }
 
-.quote.web img:last-child {
+@media (max-width: 600px) {
+  .quote img:first-child {
+    top: -55%;
+  }
+}
+
+.quote img:last-child {
   right: 0;
   bottom: -140%;
 }
 
 @media (max-width: 1024px) {
-  .quote.web img:last-child {
+  .quote img:last-child {
     right: 25px;
   }
 }
 
-.quote.web .quote-text {
+@media (max-width: 600px) {
+  .quote img:last-child {
+    bottom: -75%;
+  }
+}
+
+@media (max-width: 440px) {
+  .quote img:last-child {
+    bottom: -55%;
+  }
+}
+
+.quote .quote-text {
   color: #1a202c;
 }
 
-.quote.web .quote-subtext {
+.quote .quote-subtext {
   color: #2971f0;
 }
 
-.quote.web .quote-subtext span {
+@media (max-width: 600px) {
+  .quote .quote-subtext {
+    padding: 0 10px;
+  }
+}
+
+.quote .quote-subtext span {
   color: #1a202c;
-}
-
-@media (max-width: 600px) {
-  .quote.web {
-    display: none;
-  }
-}
-
-.quote.mobile {
-  display: none;
-  background-color: #ff6d03;
-}
-
-@media (max-width: 600px) {
-  .quote.mobile {
-    display: block;
-  }
 }
 
 @media (max-width: 600px) {

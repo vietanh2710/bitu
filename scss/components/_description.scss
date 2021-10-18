@@ -1,6 +1,5 @@
 .description {
   width: 100%;
-  overflow-x: hidden;
 
   &__wrapper {
     max-width: 1320px;
@@ -70,6 +69,7 @@
         @media (max-width: 600px) {
           font-size: 16px;
           line-height: 20px;
+          margin-bottom: 45px;
         }
 
         p:first-child {
@@ -115,70 +115,78 @@
 .quote {
   text-align: center;
   width: 100%;
-  color: $primary-text-color;
   border-radius: 24px;
-  padding: 32px 0;
   margin-top: 83px;
+  display: block;
+  background-image: url("/assets/images/quote.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 77px 24px;
 
-  &.web {
-    display: block;
-    background-image: url("/assets/images/quote.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 77px 24px;
+  @media (max-width: 600px) {
+    margin-bottom: 33px;
+    background-image: url("/assets/images/quote-bg-mobile.png");
+  }
 
-    .quote__wrapper {
-      max-width: 1320px;
-      margin: 0 auto;
-      position: relative;
-    }
+  .quote__wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+  }
 
-    img {
-      position: absolute;
-
-      &:first-child {
-        left: 0;
-        top: -140%;
-
-        @media (max-width: 1024px) {
-          left: 25px;
-        }
-      }
-
-      &:last-child {
-        right: 0;
-        bottom: -140%;
-
-        @media (max-width: 1024px) {
-          right: 25px;
-        }
-      }
-    }
-
-    .quote-text {
-      color: $gray-900;
-    }
-
-    .quote-subtext {
-      color: #2971f0;
-
-      span {
-        color: $gray-900;
-      }
-    }
+  img {
+    position: absolute;
 
     @media (max-width: 600px) {
-      display: none;
+      max-width: 29px;
+      height: auto;
+    }
+
+    &:first-child {
+      left: 0;
+      top: -140%;
+
+      @media (max-width: 1024px) {
+        left: 25px;
+      }
+
+      @media (max-width: 600px) {
+        top: -55%;
+      }
+    }
+
+    &:last-child {
+      right: 0;
+      bottom: -140%;
+
+      @media (max-width: 1024px) {
+        right: 25px;
+      }
+
+      @media (max-width: 600px) {
+        bottom: -75%;
+      }
+
+      @media (max-width: 440px) {
+        bottom: -55%;
+      }
     }
   }
 
-  &.mobile {
-    display: none;
-    background-color: $secondary-bg-color;
+  .quote-text {
+    color: $gray-900;
+  }
+
+  .quote-subtext {
+    color: #2971f0;
 
     @media (max-width: 600px) {
-      display: block;
+      padding: 0 10px;
+    }
+
+    span {
+      color: $gray-900;
     }
   }
 
