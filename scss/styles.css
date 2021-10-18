@@ -8,6 +8,7 @@
 body {
   margin: 0 auto;
   overflow-x: hidden;
+  position: relative;
 }
 
 html {
@@ -811,6 +812,7 @@ li {
 
 .moderator-member {
   overflow-x: hidden;
+  position: relative;
 }
 
 .moderator-member__wrapper {
@@ -826,6 +828,10 @@ li {
     padding: 0;
     margin-top: 40px;
   }
+}
+
+.moderator-member .container {
+  position: relative;
 }
 
 .moderator-member .container .intro {
@@ -917,7 +923,12 @@ li {
   margin-top: 24px;
 }
 
+.moderator-member .container .profile-moderator {
+  position: relative;
+}
+
 .moderator-member .container .profile-moderator__container {
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.05);
@@ -986,6 +997,7 @@ li {
           align-items: center;
   padding-bottom: 12px;
   font-family: circularBook, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -1049,6 +1061,11 @@ li {
     padding-bottom: 10px;
     height: 50px;
   }
+}
+
+.moderator-member .container .profile-moderator__container .view-wrapper {
+  position: relative;
+  z-index: 20;
 }
 
 .moderator-member .container .profile-moderator__container .view-wrapper .text-view {
@@ -1134,6 +1151,98 @@ li {
   .moderator-member .container .topic-right img {
     left: -40px;
   }
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  z-index: 300;
+}
+
+.modal.active {
+  display: block;
+  opacity: 1;
+}
+
+.modal__inner {
+  -webkit-transform: translate(-50%, -50%) scale(0.75);
+          transform: translate(-50%, -50%) scale(0.75);
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 40px;
+  position: absolute;
+  border-radius: 24px;
+}
+
+.modal__inner iframe {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.close-popup {
+  position: fixed;
+  z-index: 600;
+  cursor: pointer;
+  top: 10%;
+  right: 11%;
+  background-color: #fff;
+  padding: 12px 12px 20px 12px;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .close-popup {
+    right: 9%;
+  }
+}
+
+.close-popup .bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #4a5568;
+  background-color: #4a5568;
+}
+
+.close-popup .bar:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+          transform: translateY(8px) rotate(45deg);
+}
+
+.close-popup .bar:nth-child(2) {
+  -webkit-transform: translateY(1px) rotate(-45deg);
+          transform: translateY(1px) rotate(-45deg);
+}
+
+.backdrop-team.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .flow {

@@ -144,4 +144,19 @@ $(document).ready(function () {
       navMenu.classList.remove("active");
     }
   });
+
+  const backdrop = document.querySelector(".backdrop-team");
+  const closeBtn = document.querySelector(".close-popup");
+  const modal = document.querySelector(".modal");
+  const openBtn = document.querySelector(".open");
+
+  $(openBtn).on("click", function () {
+    modal.classList.add("active");
+    backdrop.classList.add("active");
+  });
+
+  $(closeBtn).on("click", function () {
+    modal.classList.remove("active");
+    backdrop.classList.remove("active");
+  });
 });
