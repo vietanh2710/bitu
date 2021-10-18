@@ -150,13 +150,13 @@ $(document).ready(function () {
   const modal = document.querySelector(".modal");
   const openBtn = document.querySelector(".open");
 
-  $(openBtn).on("click", function () {
+  $(openBtn).on("click", function (event) {
     event.preventDefault();
     modal.classList.add("active");
     backdrop.classList.add("active");
   });
 
-  $(closeBtn).on("click", function () {
+  $(closeBtn).on("click", function (event) {
     event.preventDefault();
     modal.classList.remove("active");
     backdrop.classList.remove("active");
