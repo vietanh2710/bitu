@@ -151,11 +151,13 @@ $(document).ready(function () {
   const openBtn = document.querySelector(".open");
 
   $(openBtn).on("click", function () {
+    event.preventDefault();
     modal.classList.add("active");
     backdrop.classList.add("active");
   });
 
   $(closeBtn).on("click", function () {
+    event.preventDefault();
     modal.classList.remove("active");
     backdrop.classList.remove("active");
   });
