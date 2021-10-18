@@ -1070,16 +1070,13 @@ li {
 
 .moderator-member .container .profile-moderator__container .view-wrapper .text-view {
   padding-bottom: 0;
-}
-
-.moderator-member .container .profile-moderator__container .view-wrapper .text-view a {
   line-height: 19px;
   font-size: 15px;
   color: #ff6d03;
 }
 
 @media (max-width: 600px) {
-  .moderator-member .container .profile-moderator__container .view-wrapper .text-view a {
+  .moderator-member .container .profile-moderator__container .view-wrapper .text-view {
     font-size: 16px;
     line-height: 20px;
   }

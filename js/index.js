@@ -148,7 +148,7 @@ $(document).ready(function () {
   const backdrop = document.querySelector(".backdrop-team");
   const closeBtn = document.querySelector(".close-popup");
   const modal = document.querySelector(".modal");
-  const openBtn = document.querySelector(".open");
+  const openBtn = document.querySelectorAll(".open");
 
   $(openBtn).on("click", function (event) {
     event.preventDefault();
@@ -160,5 +160,7 @@ $(document).ready(function () {
     event.preventDefault();
     modal.classList.remove("active");
     backdrop.classList.remove("active");
+
+    $("iframe").attr("src", $("iframe").attr("src"));
   });
 });

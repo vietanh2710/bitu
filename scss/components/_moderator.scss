@@ -191,16 +191,13 @@
 
           .text-view {
             padding-bottom: 0;
+            line-height: 19px;
+            font-size: 15px;
+            color: $secondary-bg-color;
 
-            a {
-              line-height: 19px;
-              font-size: 15px;
-              color: $secondary-bg-color;
-
-              @media (max-width: 600px) {
-                font-size: 16px;
-                line-height: 20px;
-              }
+            @media (max-width: 600px) {
+              font-size: 16px;
+              line-height: 20px;
             }
           }
         }
