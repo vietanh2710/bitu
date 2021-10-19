@@ -416,27 +416,39 @@ li {
   height: 435px;
 }
 
+@media (max-width: 530px) {
+  .banner-right span .lottie {
+    height: 330px;
+  }
+}
+
 @media (max-width: 440px) {
   .banner-right span .lottie {
-    height: 260px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner-right span .lottie {
+    height: 230px;
   }
 }
 
 @media (max-width: 530px) {
   .banner-right span {
-    top: 30%;
+    top: 37%;
   }
 }
 
 @media (max-width: 440px) {
   .banner-right span {
-    top: 39%;
+    top: 40%;
   }
 }
 
 @media (max-width: 375px) {
   .banner-right span {
-    top: 37%;
+    top: 42%;
   }
 }
 

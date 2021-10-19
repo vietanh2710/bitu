@@ -134,21 +134,29 @@
       .lottie {
         height: 435px;
 
+        @media (max-width: 530px) {
+          height: 330px;
+        }
+
         @media (max-width: 440px) {
-          height: 260px;
+          height: 280px;
+        }
+
+        @media (max-width: 375px) {
+          height: 230px;
         }
       }
 
       @media (max-width: 530px) {
-        top: 30%;
+        top: 37%;
       }
 
       @media (max-width: 440px) {
-        top: 39%;
+        top: 40%;
       }
 
       @media (max-width: 375px) {
-        top: 37%;
+        top: 42%;
       }
     }
 
