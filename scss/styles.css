@@ -256,7 +256,7 @@ li {
 @media (max-width: 1024px) {
   .banner {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 
@@ -385,6 +385,47 @@ li {
 .banner-right {
   padding-top: 150px;
   position: relative;
+}
+
+@media (max-width: 1090px) {
+  .banner-right {
+    margin: 0 auto;
+  }
+}
+
+.banner-right span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 38%;
+}
+
+.banner-right span .lottie {
+  height: 435px;
+}
+
+@media (max-width: 425px) {
+  .banner-right span .lottie {
+    height: 260px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-right span {
+    top: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner-right span {
+    top: 39%;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner-right span {
+    top: 37%;
+  }
 }
 
 @media (max-width: 600px) {

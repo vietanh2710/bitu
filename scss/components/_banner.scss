@@ -4,7 +4,7 @@
 
   @media (max-width: 1024px) {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   &__wrapper {
@@ -112,6 +112,37 @@
   &-right {
     padding-top: 150px;
     position: relative;
+
+    @media (max-width: 1090px) {
+      margin: 0 auto;
+    }
+
+    span {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 38%;
+
+      .lottie {
+        height: 435px;
+
+        @media (max-width: 425px) {
+          height: 260px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        top: 30%;
+      }
+
+      @media (max-width: 425px) {
+        top: 39%;
+      }
+
+      @media (max-width: 375px) {
+        top: 37%;
+      }
+    }
 
     @media (max-width: 600px) {
       padding-top: 104px;
