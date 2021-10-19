@@ -376,6 +376,18 @@ li {
   margin-right: 20px;
 }
 
+@media (max-width: 1120px) {
+  .banner-left .image-box img:first-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-left .image-box img:first-child {
+    margin-right: 20px;
+  }
+}
+
 @media (max-width: 375px) {
   .banner-left .image-box img:first-child {
     margin-right: 5px;
@@ -404,19 +416,19 @@ li {
   height: 435px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
   .banner-right span .lottie {
     height: 260px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 530px) {
   .banner-right span {
     top: 30%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
   .banner-right span {
     top: 39%;
   }
